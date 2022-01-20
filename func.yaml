@@ -1,0 +1,11 @@
+chema_version: 20180708
+name: function-for-a-vm
+version: 0.0.0
+runtime: python
+build_image: fnproject/python:3.8-dev
+run_image: fnproject/python:3.8
+entrypoint: /python/bin/fdk /function/oke.py handler
+memory: 256
+timeout: 300
+config:
+  oci_region: us-ashburn-1
