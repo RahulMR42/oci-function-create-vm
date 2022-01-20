@@ -8,4 +8,4 @@ entrypoint: /python/bin/fdk /function/oke.py handler
 memory: 256
 timeout: 300
 config:
-  oci_region: us-ashburn-1
+  oci_region: us-phoenix-1
